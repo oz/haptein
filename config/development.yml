@@ -1,0 +1,12 @@
+---
+    environment: development
+    chdir: /home/oz/src/ruby/haptein
+    address: 127.0.0.1
+    port: 4567
+    pid: /home/oz/src/ruby/haptein/tmp/thin.pid
+    rackup: /home/oz/src/ruby/haptein/config/haptein.ru
+    log: /home/oz/src/ruby/haptein/log/thin.log
+    max_conns: 1024
+    timeout: 30
+    max_persistent_conns: 512
+    daemonize: false
