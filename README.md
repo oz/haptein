@@ -3,7 +3,7 @@ Haptein
 
 A modest ruby application built with `async_sinatra` and `cramp` to play with
 Event-Source.  This app makes zero effort to fall-back on other mechanisms than
-Event-Source on your $BROWSER, so a good one.
+Event-Source on your $BROWSER, so pick a good one.
 
 Requirements
 ------------
@@ -12,7 +12,7 @@ Setup with `gem install bundler && bundle install`.
 
 Start with `bundle exec thin -C config/development.yml`.
 
-Check http://localhost:3000/ with your $BROWSER of choice.
+Check http://localhost:4567/ with your $BROWSER of choice.
 
 
 About
